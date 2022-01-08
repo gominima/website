@@ -1,19 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-
-
-
-
+import Hero from '../components/Hero';
+import Migrating from '../components/migrating';
+import axios from "axios"
+//http://api.github.com/repos/[username]/[reponame]
 export default function Home(): JSX.Element {
+  useEffect(() => {
+   const gitstars:any = document.querySelector(".github-stars")
+    axios.get("http://api.github.com/repos/gominima/minima").then(res => {
+      const data:any  = res.data
+      gitstars.innerHTML =  `${data.stargazers_count} ⭐`
+    })
+    gitstars.innerHTML = "⭐"
+  },[])
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
      
       <main>
-        hi
+        <Hero/>
+        <Migrating/>
       </main>
     </Layout>
   );
