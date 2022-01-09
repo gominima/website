@@ -10,13 +10,13 @@ const Features = () => {
         ></path>
       </svg>
       <div className="flex flex-col  w-full bg-black">
-        <div className="text-4xl flex justify-center text-gray-400 font-bold">
+        <div className="text-2xl md:text-4xl flex justify-center text-gray-400 font-bold">
           Features
         </div>
-        <div className="text-7xl flex justify-center text-white font-semibold pt-2">
+        <div className="text-3xl md:text-7xl flex justify-center text-white font-semibold pt-2">
           Minimal Developer Experience
         </div>
-        <div className="text-2xl flex justify-center text-white pt-2 text-center">
+        <div className="text-xl md:text-2xl flex justify-center text-white pt-2 text-center">
           Minima is made to be minimal and is shipped with plenty of utility to
           boost developer experience.
         </div>
