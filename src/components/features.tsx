@@ -23,15 +23,15 @@ const Features = () => {
         <div className="bg-black">
           <div className="container px-6 py-10 mx-auto">
             <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-              <div className="p-8 space-y-3 border-2 border-purple-400 dark:border-purple-300 rounded-xl">
-                <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+              <div className="p-8 space-y-3 border-2 border-purple-400 rounded-xl">
+                <h1 className="text-2xl font-semibold capitalizetext-white">
                   Robust routing
                 </h1>
-                <p className="text-gray-500 dark:text-gray-300">
+                <p className="text-gray-300">
                   Routing in go is very flexible, its also very similar to chi
                   and other go-routers
                 </p>
-                <div className="inline-flex p-2 text-purple-500 capitalize transition-colors duration-200 transform bg-purple-100 rounded-full dark:bg-purple-500 dark:text-white hover:underline hover:text-purple-600 dark:hover:text-purple-500">
+                <div className="inline-flex p-2  capitalize transition-colors duration-200 transform bg-purple-500 text-white hover:underline hover:text-purple-600 rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-6 h-6"
@@ -49,17 +49,17 @@ const Features = () => {
                 </div>
               </div>
 
-              <div className="p-8 space-y-3 border-2 border-purple-400 dark:border-purple-300 rounded-xl">
-                <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+              <div className="p-8 space-y-3 border-2 border-purple-300 rounded-xl">
+                <h1 className="text-2xl font-semibold capitalizetext-white">
                   Middleware support
                 </h1>
 
-                <p className="text-gray-500 dark:text-gray-300">
+                <p className="text-gray-300">
                   As minima is fully based on net/http, it is fully compatible
                   to any native go middleware based on net/http
                 </p>
 
-                <div className="inline-flex p-2 text-purple-500 capitalize transition-colors duration-200 transform bg-purple-100 rounded-full dark:bg-purple-500 dark:text-white hover:underline hover:text-purple-600 dark:hover:text-purple-500">
+                <div className="inline-flex p-2  capitalize transition-colors duration-200 transform bg-purple-500 text-white hover:underline hover:text-purple-600 rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-6 h-6"
@@ -77,17 +77,16 @@ const Features = () => {
                 </div>
               </div>
 
-              <div className="p-8 space-y-3 border-2 border-purple-400 dark:border-purple-300 rounded-xl">
-                <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">
+              <div className="p-8 space-y-3 border-2 border-purple-400  rounded-xl">
+                <h1 className="text-2xl font-semibold capitalize text-white">
                   Lightweight
                 </h1>
 
-                <p className="text-gray-500 dark:text-gray-300">
-                  Minima is based on net/http with no dependency outside of the
-                  native go eco-system which makes it extremely light and fast
+                <p className="text-gray-300">
+                 It's soo light that you won't even feel it and super minimal that you will forget about it.
                 </p>
 
-                <div className="inline-flex p-2 text-purple-500 capitalize transition-colors duration-200 transform bg-purple-100 rounded-full dark:bg-purple-500 dark:text-white hover:underline hover:text-purple-600 dark:hover:text-purple-500">
+                <div className="inline-flex p-2  capitalize transition-colors duration-200 transform bg-purple-500 text-white hover:underline hover:text-purple-600 rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-6 h-6"
