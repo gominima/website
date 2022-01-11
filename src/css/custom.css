@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+img, svg {
+  display: inline;
+}
+
 :root {
   --ifm-color-primary: #9966ff;
   --ifm-color-primary-dark: #9400D3;

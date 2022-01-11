@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Hero from "../components/Hero";
-import Features from "../components/features";
+import Features from "../components/Features";
 import axios from "axios";
 //http://api.github.com/repos/[username]/[reponame]
 export default function Home(): JSX.Element {
@@ -17,11 +17,10 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Lightweight and reliable backend framework for Go HTTP services with 0 dependencies"
     >
       <main>
         <Hero />
-
         <Features />
       </main>
     </Layout>
