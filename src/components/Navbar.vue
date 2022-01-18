@@ -28,7 +28,7 @@ export default defineComponent({
 	 <ul  class="hidden md:flex flex-row  space-x-10">
 		 <li class="links text-2xl font-semibold text-gray-200">Documentation</li>
 		 <li class="links text-2xl font-semibold text-gray-200">Guide</li>
-		 <button class="bg-hero pt-1 pl-2 pr-2 pb-1 text-white font-semibold text-xl text-center rounded-full">Get started</button>
+		 <button class="bg-hero pt-1 pl-3 pr-3 pb-1 text-white font-semibold text-xl text-center rounded-full">Get started</button>
 	 </ul>
 	 <div class="button flex md:hidden text-3xl">
            <i @click="Toggle" class="fas fa-ellipsis-v rotate-90 text-white"></i>
