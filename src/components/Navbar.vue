@@ -24,19 +24,26 @@ export default defineComponent({
 <template>
   <header class="p-4">
     <div class="container flex justify-between h-16 mx-auto">
-      <div class="flex items-center">
-        <a href="#" class="text-blue-600 hover:text-blue-700">
+      <div class="flex items-center py-3">
+        <a href="#" class="text-blue-500 hover:text-blue-600">
           <span class="text-2xl font-bold tracking-tight">Minima</span>
         </a>
       </div>
       <div class="items-center flex-shrink-0 hidden lg:flex">
-        <button class="self-center px-8 py-3 rounded text-white">
+        <button
+          class="self-center py-3 rounded text-white hover:text-gray-200 hover:underline"
+        >
           Documentation
+        </button>
+        <button
+          class="self-center px-8 py-3 rounded text-white hover:text-gray-200 hover:underline"
+        >
+          Guide
         </button>
         <button
           class="self-center px-8 py-3 font-semibold rounded bg-blue-600 hover:bg-blue-700 text-white"
         >
-          Sign up
+          Get started
         </button>
       </div>
       <button class="p-4 lg:hidden">

@@ -7,7 +7,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="flex justify-center pt-12">
+  <div class="flex justify-center pt-8">
     <div
       class="flex bg-gray-700 w-96 pt-2 pb-2 space-x-2 items-center justify-center rounded-full"
     >
@@ -16,7 +16,6 @@ export default defineComponent({
       </div>
       <div class="text-white rounded-md">
         Added new route system, check it here
-        <!-- Add font awesom cheveron right icon below -->
         <i class="fas fa-chevron-right text-blue-500"></i>
       </div>
     </div>

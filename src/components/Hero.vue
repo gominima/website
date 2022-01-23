@@ -19,13 +19,17 @@ export default defineComponent({
     <div
       class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
     >
-      Minima offers you the most minimal developer experience with everything
-      that is needed to scale
+      Minima 🦄 is a reliable and lightweight framework for Go to carve the web
+      💻. Developed with core
+      <code class="inline-block text-base font-semibold"> net/http </code>
+      and other native packages, and with
+      <span class="italic">zero</span>
+      external dependencies.
     </div>
     <div
       class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
     >
-      Start using minima with your exsisting net/http projects!
+      Start using minima with your existing projects!
     </div>
     <div class="flex space-x-10 pt-8">
       <button
