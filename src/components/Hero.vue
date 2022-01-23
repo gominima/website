@@ -13,7 +13,9 @@ export default defineComponent({
         class="text-4xl tracking-tight text-white sm:text-5xl md:text-6xl text-center"
       >
         <span class="inline-flex">The</span>
-        <i class="text-7xl font-thin relative top-3 px-2 mr-2 fa-brands fa-golang inline-flex"></i>
+        <i
+          class="text-7xl font-thin relative top-3 px-2 mr-2 fa-brands fa-golang inline-flex"
+        ></i>
         <span class="inline-flex">framework</span>
         <span class="block text-blue-600 xl:inline">to scale</span>
       </h1>
@@ -35,15 +37,15 @@ export default defineComponent({
     </div>
     <div class="flex space-x-10 pt-8">
       <button
-        class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
+        class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
       >
         Documentation
       </button>
       <button
-        class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+        class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
       >
-        Explore utility
-      </button>
+        Explore utility</button
+      >s
     </div>
     <div class="text-sm text-gray-500 pt-8">DEVELOPED BY MINIMA CORE TEAM™</div>
   </div>
