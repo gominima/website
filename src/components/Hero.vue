@@ -12,7 +12,9 @@ export default defineComponent({
       <h1
         class="text-4xl tracking-tight text-white sm:text-5xl md:text-6xl text-center"
       >
-        <span class="block xl:inline">The Golang framework</span>
+        <span class="inline-flex">The</span>
+        <i class="text-7xl font-thin relative top-3 px-2 mr-2 fa-brands fa-golang inline-flex"></i>
+        <span class="inline-flex">framework</span>
         <span class="block text-blue-600 xl:inline">to scale</span>
       </h1>
     </div>
