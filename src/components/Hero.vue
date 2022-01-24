@@ -17,7 +17,7 @@ export default defineComponent({
           class="text-7xl font-thin relative top-3 px-2 mr-2 fa-brands fa-golang inline-flex"
         ></i>
         <span class="inline-flex">framework</span>
-        <span class="block text-blue-600 xl:inline">to scale</span>
+        <span class="text-blue-600 block">to scale</span>
       </h1>
     </div>
     <div
