@@ -35,18 +35,23 @@ export default defineComponent({
     >
       Start using minima with your existing projects!
     </div>
-    <div class="flex space-x-10 pt-8">
-      <button
-        class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
+    <div
+      class="mt-5 sm:space-x-0 md:space-x-8 lg:space-x-8 sm:mt-8 sm:mx-24 sm:flex sm:justify-center lg:justify-start"
+    >
+      <div
+        class="rounded-md shadow w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
       >
         Documentation
-      </button>
-      <button
-        class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
+      </div>
+
+      <div
+        class="mt-4 sm:mt-0 sm:ml-3 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
       >
-        Explore utility</button
-      >s
+        Explore utility
+      </div>
     </div>
-    <div class="text-sm text-gray-500 pt-8">DEVELOPED BY MINIMA CORE TEAM™</div>
+    <footer class="text-sm text-gray-500 pt-8">
+      DEVELOPED BY MINIMA CORE TEAM™
+    </footer>
   </div>
 </template>
