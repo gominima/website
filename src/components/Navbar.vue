@@ -1,14 +1,14 @@
 <script lang="ts">
-import { defineComponent } from "@vue/runtime-core";
-import { Ref, ref } from "vue";
+import { defineComponent } from '@vue/runtime-core';
+import { Ref, ref } from 'vue';
 export default defineComponent({
-  name: "Navbar",
+  name: 'Navbar',
   setup() {
     const Visible: Ref<boolean> = ref<boolean>(false);
     const Toggle = () => {
       Visible.value = !Visible.value;
     };
-    window.addEventListener("resize", () => {
+    window.addEventListener('resize', () => {
       if (window.innerWidth > 768) {
         Visible.value = false;
       }
