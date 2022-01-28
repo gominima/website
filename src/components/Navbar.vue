@@ -25,8 +25,11 @@ export default defineComponent({
   <header class="p-4">
     <div class="container flex justify-between h-16 mx-auto">
       <div class="flex items-center py-3">
-        <a href="#" class="text-blue-500 hover:text-blue-600">
-          <span class="text-2xl font-bold tracking-tight">Minima</span>
+        <a href="#">
+          <img
+            src="../assets/minimaLogo.png"
+            class="relative -left-[35%] sm:-left-[35%] md:-left-[40%] lg:-left-[40%] transform scale-[0.3] sm:scale-[0.3] md:scale-[0.15] lg:scale-[0.15]"
+          />
         </a>
       </div>
 
