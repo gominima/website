@@ -4,8 +4,8 @@
   <div class="flex justify-center text-transparent font-bold text-5xl bg-clip-text bg-gradient-to-r from-blue-600 to-purple-400">Why Minima?</div> 
   <div class="flex justify-center text-white text-xl pt-3">Minima has all the tools you need to make the Backend but with a minimal feel.</div>
    </section>
-   <section class="grid grid-cols-2 justify-around items-center p-6">
-   <img class="code-img" src="../assets/intro.png" alt="code-block">
+   <section class="grid grid-cols-2 justify-items-center content-center items-center p-6">
+   <img class="code-img1" src="../assets/intro.png" alt="code-block">
     <div class="text-grp flex flex-col">
     <div class="text-6xl font-bold text-white">Simple Setup</div>
     <div class="text-xl text-white pt-6 pb-6">Made to be minimal yet easy to learn for begginers and easy to understand from other ecosytems like javascript and python</div>
@@ -16,7 +16,7 @@
       </div>
     </div>
    </section>
-    <section class="grid grid-cols-2  items-center justify-around p-6 bg-secondbg">
+    <section class="grid grid-cols-2 justify-items-center items-center p-6 bg-secondbg">
  
     <div class="text-grp flex flex-col pl-10">
     <div class="text-6xl font-bold text-white">Minimal Routing</div>
