@@ -1,8 +1,7 @@
 <script lang="ts">
-import { defineComponent } from '@vue/runtime-core';
+import { defineComponent } from 'vue-demi';
 export default defineComponent({
-  name: 'Hero',
-  setup() {},
+  name: 'Hero'
 });
 </script>
 
@@ -38,17 +37,19 @@ export default defineComponent({
     <div
       class="mt-5 sm:space-x-0 md:space-x-8 lg:space-x-8 sm:mt-8 sm:mx-24 sm:flex sm:justify-center lg:justify-start"
     >
-      <div
+      <router-link
         class="rounded-md shadow w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
+        to="/docs"
       >
         Documentation
-      </div>
+      </router-link>
 
-      <div
+      <a
         class="mt-4 sm:mt-0 sm:ml-3 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
+        href="https://guide.gominima.studio"
       >
-        Explore utility
-      </div>
+        Get Started
+      </a>
     </div>
     <footer class="text-sm text-gray-500 pt-8">
       DEVELOPED BY MINIMA CORE TEAM™

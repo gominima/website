@@ -22,35 +22,29 @@ export default defineComponent({
 </script>
 
 <template>
-  <header class="p-4">
-    <div class="container flex justify-between h-16 mx-auto">
+  <header class="pt-4 pb-4 pr-0 pl-0">
+    <div class="bg-mainbg container flex justify-between h-16 mx-auto rounded">
       <div class="flex items-center py-3">
-        <a href="#">
+        <router-link to="/">
           <img
             src="../assets/minimaLogo.png"
             class="relative -left-[35%] sm:-left-[35%] md:-left-[40%] lg:-left-[40%] transform scale-[0.3] sm:scale-[0.3] md:scale-[0.15] lg:scale-[0.15]"
           />
-        </a>
+        </router-link>
       </div>
 
       <div class="items-center flex-shrink-0 hidden lg:flex">
-        <a
-          href="#"
+        <router-link
+          to="/docs"
           class="self-center py-3 rounded text-white hover:text-gray-200 hover:underline"
         >
           Documentation
-        </a>
+        </router-link>
         <a
-          href="#"
+          href="https://guide.gominima.studio"
           class="self-center px-8 py-3 rounded text-white hover:text-gray-200 hover:underline"
         >
           Guide
-        </a>
-        <a
-          href="#"
-          class="self-center px-8 py-3 font-semibold rounded bg-blue-600 hover:bg-blue-700 text-white"
-        >
-          Get started
         </a>
       </div>
 
