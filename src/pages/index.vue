@@ -3,6 +3,7 @@
     <Navbar />
     <WhatsNew />
     <Hero />
+    <WhyMinima/>
   </section>
 </template>
 
@@ -10,7 +11,8 @@
 import Navbar from '../components/Navbar.vue';
 import WhatsNew from '../components/WhatsNew.vue';
 import Hero from '../components/Hero.vue';
+import WhyMinima from "../components/WhyMinima.vue"
 export default {
-  components: { Navbar, WhatsNew, Hero },
+  components: { Navbar, WhatsNew, Hero, WhyMinima},
 };
 </script>

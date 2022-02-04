@@ -7,7 +7,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="flex justify-center pt-8 flex-col items-center">
+  <div class="flex justify-center pt-8 flex-col items-center pb-12">
     <div class="sm:text-center lg:text-left">
       <h1
         class="text-4xl tracking-tight text-white sm:text-5xl md:text-6xl text-center"
