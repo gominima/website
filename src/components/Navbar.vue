@@ -47,4 +47,6 @@ export default defineComponent({
           Guide
         </a>
       </div>
+    </div>
+  </header>
  </template>
