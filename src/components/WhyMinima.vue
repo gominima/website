@@ -9,24 +9,14 @@
     <div class="text-grp flex flex-col pt-4 md:items-center justify-centermd:pt-0">
     <div class="text-5xl md:text-6xl font-bold text-white">Simple Setup</div>
     <div class="text-xl text-white pt-6 pb-6">Made to be minimal yet easy to learn for begginers and easy to understand from other ecosytems like javascript and python</div>
-    <router-link
-        class="rounded-md shadow w-1/3 md:w-1/4 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
-        to="/docs"
-      >
-        Documentation
-      </router-link>
+      <LinkButton to="docs" label="Documentation" />
     </div>
    </section>
     <section   class="flex flex-col-reverse md:grid md:grid-cols-2 justify-items-center items-center p-6 pt-8 bg-secondbg">
     <div class="text-grp flex flex-col pt-4 md:pl-10 md:pt-0">
     <div class="text-5xl md:text-6xl font-bold text-white">Minimal Routing</div>
     <div class="text-xl text-white pt-6 pb-6">Easy to setup minimal routing made to scale, with multiple router instances at once which can be used in main instance!</div>
-    <router-link
-        class="rounded-md shadow w-1/3 md:w-1/4 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
-        to="/docs"
-      >
-        Documentation
-      </router-link>
+      <LinkButton to="docs" label="Documentation" />
     </div>
        <img class="code-img " src="../assets/router.png" alt="code-block ">
    </section>
@@ -35,12 +25,7 @@
     <div class="text-grp flex flex-col pt-4 md:items-center justify-center md:pt-0">
     <div class="text-5xl md:text-6xl font-bold text-white">Middlewares</div>
     <div class="text-xl text-white pt-6 pb-6">Middle ware support like none other, supports net/http handlers and minima handlers both initializing before actual route handlers</div>
-    <router-link
-        class="rounded-md shadow w-1/3 md:w-1/4 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
-        to="/docs"
-      >
-        Documentation
-      </router-link>
+      <LinkButton to="docs" label="Documentation" />
     </div>
    </section>
     <section  class="flex flex-col-reverse md:grid md:grid-cols-2 justify-items-center items-center p-6 pt-8">
@@ -48,13 +33,7 @@
     <div class="text-grp flex flex-col pt-4 md:pl-10 md:pt-0">
     <div class="text-5xl md:text-6xl font-bold text-white">Robust Api</div>
     <div class="text-xl text-white pt-6 pb-6">Robust api ready to be implemented in any work space specially made to scale well</div>
-    <router-link
-        class="rounded-md shadow w-1/3 md:w-1/4 flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10 transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200"
-        to="/docs"
-      >
-        Documentation
-      </router-link>
-
+      <LinkButton to="docs" label="Documentation" />
     </div>
           <img class="code-img " src="../assets/robust.png" alt="code-block ">
    </section>
@@ -62,10 +41,12 @@
 
 </template>
 
-<script>
+<script  lang="ts">
 import { defineComponent } from "@vue/runtime-core";
+import LinkButton from '../components/LinkButton.vue'
 
 export default defineComponent({
 	name: "Features",
+  components: { LinkButton }
 })
 </script>
