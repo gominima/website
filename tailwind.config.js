@@ -3,11 +3,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        mainbg: '#111828',
-        secondbg: "#0f1624",
-        hero: '#1c65f2',
+        navbar: '#110e0e',
+        border: '#383838',
+        code: '#060404',
+        link: '#1fd65f'
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('daisyui'),
+  ],
 };
