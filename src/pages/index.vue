@@ -1,5 +1,5 @@
 <template>
-  <section class="min-w-screen min-h-screen bg-mainbg">
+  <section class="min-w-screen min-h-screen">
     <WhatsNew />
     <Hero />
     <WhyMinima/>

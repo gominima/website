@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+	.code-img {
+		width: 45rem;
+	}
+
+	.code-img1 {
+		width: 37rem;
+	}
+
+	/* CSS: CUSTOM SCROLLBAR */
+
+	::-webkit-scrollbar {
+		width: 6px;
+	}
+	::-webkit-scrollbar-track {
+		background: #191919;
+	}
+	::-webkit-scrollbar-thumb {
+		background: #252525;
+	}
+	::-webkit-scrollbar-thumb:hover {
+		background: #303030;
+	}
+}

@@ -2,6 +2,8 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import routes from '~pages';
 import nprogress from 'nprogress';
 
+routes.push({ path: '/docs', redirect: '/docs/main' })
+
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
