@@ -38,7 +38,7 @@ export default defineComponent({
       class="mt-5 sm:space-x-0 md:space-x-8 lg:space-x-8 sm:mt-8 sm:mx-24 sm:flex sm:justify-center lg:justify-start"
     >
       <router-link
-        class="btn btn-primaryborder border-transparent hover:scale-105 normal-case"
+        class="btn btn-primaryborder border-transparent tansition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
         to="/docs"
       >
         Documentation

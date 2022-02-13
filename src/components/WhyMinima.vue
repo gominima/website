@@ -2,8 +2,8 @@
 	<div class="pt-12 pb-2">
 		<section class="flex flex-col bg-secondbg p-6">
 			<div class="flex justify-center font-bold text-5xl bg-clip-text">Why Minima?</div>
-			<div class="flex justify-center text-base-content text-xl pt-3">
-				Minima has all the tools you need to build a fast and reliable backend, without worrying about any external dependencies.
+			<div class="flex text-center justify-center text-base-content text-xl pt-3">
+				Minima has all the tools you need to build a fast and reliable backend, without worrying about any external dependencies. Build the code, and it will handle the rest.
 			</div>
 		</section>
 		<section
