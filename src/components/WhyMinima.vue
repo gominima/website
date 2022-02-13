@@ -3,7 +3,7 @@
 		<section class="flex flex-col bg-secondbg p-6">
 			<div class="flex justify-center font-bold text-5xl bg-clip-text">Why Minima?</div>
 			<div class="flex justify-center text-base-content text-xl pt-3">
-				Minima has all the tools you need to make the Backend but with a minimal feel.
+				Minima has all the tools you need to build a fast and reliable backend, without worrying about any external dependencies.
 			</div>
 		</section>
 		<section
@@ -18,8 +18,7 @@
 			<div class="text-grp flex flex-col pt-4 md:pt-0">
 				<div class="text-5xl md:text-6xl font-bold text-base-content">Simple Setup</div>
 				<div class="text-xl text-base-content pt-6 pb-6">
-					Made to be minimal yet easy to learn for begginers and easy to understand from other
-					ecosytems like javascript and python
+					Minima is designed to be a beginner friendly framework to develop all your projects with ease without compromising performance
 				</div>
 				<router-link
 					class="btn btn-primary rounded-md shadow w-1/3 md:w-1/4 flex items-center justify-center px-8 py-3 border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
@@ -35,8 +34,7 @@
 			<div class="text-grp flex flex-col pt-4 md:pl-10 md:pt-0">
 				<div class="text-5xl md:text-6xl font-bold text-base-content">Minimal Routing</div>
 				<div class="text-xl text-base-content pt-6 pb-6">
-					Easy to setup minimal routing made to scale, with multiple router instances at once which
-					can be used in main instance!
+					With Minima, you can set up multiple routes simultaneously, quick and easy and use them in your main instance without any trouble.
 				</div>
 				<router-link
 					class="btn btn-primary rounded-md shadow w-1/3 md:w-1/4 flex items-center justify-center px-8 py-3 border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
