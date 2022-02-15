@@ -70,7 +70,7 @@
 								Returns:
 								<div class="inline-block whitespace-pre-wrap">
 									<span
-										><router-link :to="docs.Returns.Type" class="">{{ docs.Returns.Type }}</router-link></span
+										><router-link :to="docs.Returns?.Type" class="">{{ docs.Returns?.Type }}</router-link></span
 									>
 								</div>
 							</div>
