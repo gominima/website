@@ -25,7 +25,7 @@
 					</g></svg
 			></label>
 			<div class="flex items-stretch flex-col m-auto w-full overflow-hidden bg-base-200">
-				<article class="py-2.5 px-6 mt-3.5 hover:shadow-md border-x border-solid border-base-200">
+				<article ref="article" class="py-2.5 px-6 mt-3.5 hover:shadow-md border-x border-solid border-base-200">
 					<div class="card">
 						<h1 class="card-title text-3xl py-0">
 							{{ docs.Name }}
@@ -225,6 +225,15 @@ export default defineComponent({
 			docsjson: {},
 		};
 	},
+
+	watch:{
+		docs(prevV, currV ){
+			if(prevV !== currV) {
+				(this.$refs.article as HTMLElement ).scrollIntoView({ behavior: 'smooth', block: 'start' })
+		  };
+		},
+	},
+
 	async created() {
 		this.$watch(
 			() => this.$route.params,
