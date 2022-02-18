@@ -10,6 +10,9 @@ module.exports = {
       },
     },
   },
+  daisyui: {
+    darkTheme: "forest"
+  },
   plugins: [
     require('@tailwindcss/typography'),
     require('daisyui'),

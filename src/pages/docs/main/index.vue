@@ -24,7 +24,7 @@
 						></path>
 					</g></svg
 			></label>
-			<div class="flex items-stretch flex-col m-auto w-full overflow-hidden bg-base-200">
+			<div class="flex items-stretch flex-col m-auto w-full overflow-hidden bg-base-100">
 				<article
 					class="py-2.5 px-4 mt-3.5 hover:shadow-md rounded-lg border-x border-solid border-base-200"
 				>
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class="drawer-side">
-			<label for="drawer-button" class="drawer-overlay"
+			<label for="drawer-button" class="drawer-overlay bg-neutral"
 				><svg
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -59,7 +59,7 @@
 					</g>
 					</svg>
 				</label>
-			<ul class="menu p-4 overflow-y-auto w-80 text-base-content">
+			<ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
 				<li class="mr-2 text-base font-bold text-base-content">STRUCTURES</li>
 				<li v-for="(doc, index) in (docsjson as any).Structures" :key="doc.Name + '_' + index">
 					<router-link

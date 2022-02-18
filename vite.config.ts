@@ -9,5 +9,10 @@ export default defineConfig({
 		alias: {
 			'~/': `${resolve(__dirname, 'src')}/`,
 		},
-	}
+	},
+	server : process.env.DOCKER ? {
+		hmr: {
+			port: 443
+		}
+	} : {}
 });
