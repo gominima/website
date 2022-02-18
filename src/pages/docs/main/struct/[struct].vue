@@ -250,7 +250,7 @@ export default defineComponent({
 			const docs = await getDocsJson('main');
 			this.docsjson = docs;
 			this.docs = docs.Structures.find((struct: Doc) => struct.Name === path);
-			if (this.docs.Line.startsWith('<')) return; //return early if line is already formatted
+			if (this.docs.Line?.startsWith('<')) return; //return early if line is already formatted
 			this.docs.Line = parseMarkdownColors(this.docs.Line, 'go');
 		},
 	},
