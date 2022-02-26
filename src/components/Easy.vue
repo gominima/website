@@ -1,6 +1,6 @@
 <template>
  <div class="bg-neutral min-h-screen text-neutral-content  flex justify-center items-center">
-  <div class="flex flex-col justify-center items-center space-y-6 pl-1.5 pr-1.5 pt-12 pb-12">
+  <div class="flex flex-col justify-center items-center space-y-6 pl-1.5 pr-1.5 pt-16 pb-16">
   <div class="text-5xl md:text-7xl font-mons">Easy to understand</div>
   <div class="tet-3xl md:text-4xl font-mons">using minima's utility layer on top of net/http</div>
   <div class="w-2/3 md:w-1/2 font-semibold md:text-lg text-center">Minima is based on hash table which makes it impressivly fast and the framework itself is fully based on net/http with 0 external dependencies.</div>
