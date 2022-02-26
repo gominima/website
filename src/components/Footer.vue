@@ -17,13 +17,13 @@
     <a class="link link-hover font-bold" href="https://github.com/gominima/minima/stargazers">{{data.stargazers_count}} stars</a> 
     <a class="link link-hover font-bold" href="https://github.com/gominima/minima/fork">{{data.forks}} forks</a> 
     <a class="link link-hover font-bold" href="https://github.com/gominima/minima/graphs/contributors">10+ Contributors</a> 
-    <a class="link link-hover font-bold" >{{data.license.name}}</a>
+    <a class="link link-hover font-bold" href="{{data.license.url}}" >{{data.license.name}}</a>
   </div> 
   <div>
     <span class="footer-title">Links</span> 
-    <a class="link link-hover">Terms of use</a> 
-    <a class="link link-hover">Privacy policy</a> 
-    <a class="link link-hover">Cookie policy</a>
+    <a class="link link-hover" href="https://discord.com/invite/gRyCr5APmg">Discord</a> 
+    <a class="link link-hover" href="https://github.com/gominima/minima">Github</a> 
+    <a class="link link-hover" href="https://github.com/gominima">Other Projects</a>
   </div>
 </footer>
 </div>
