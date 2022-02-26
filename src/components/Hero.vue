@@ -8,16 +8,16 @@ export default defineComponent({
 <template>
   <div class="flex justify-center pt-8 flex-col items-center pb-12">
     <div class="sm:text-center lg:text-left">
-      <h1
-        class="text-4xl tracking-tight text-base-content sm:text-5xl md:text-6xl text-center"
+      <div
+        class="text-9xl tracking-tight text-base-content sm:text-5xl md:text-6xl text-center"
       >
         <span class="inline-flex">The</span>
         <i
           class="text-7xl font-thin relative top-3 px-2 mr-2 fa-brands fa-golang inline-flex"
         ></i>
-        <span class="inline-flex">framework</span>
+        <span class="inline-flex ">framework</span>
         <span class="text-primary block">to scale</span>
-      </h1>
+      </div>
     </div>
     <div
       class="mt-3 text-base text-white pl-4 pr-4 md:p-2 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
