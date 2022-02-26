@@ -13,6 +13,7 @@
     "@tailwindcss/postcss7-compat": "^2.2.17",
     "@vueuse/core": "^7.5.5",
     "autoprefixer": "^10.4.2",
+    "axios": "^0.26.0",
     "daisyui": "^2.0.2",
     "highlight.js": "^11.4.0",
     "marked": "^4.0.12",
