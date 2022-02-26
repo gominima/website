@@ -4,6 +4,7 @@
     <Hero />
     <EasyToUnderstand/>
     <Install/>
+    <Tryit/>
   </section>
 </template>
 
@@ -12,7 +13,8 @@ import WhatsNew from '../components/WhatsNew.vue';
 import Hero from '../components/Hero.vue';
 import EasyToUnderstand from '../components/Easy.vue'
 import Install from "../components/Install.vue"
+import Tryit from "../components/TryIt.vue"
 export default {
-  components: { WhatsNew, Hero, EasyToUnderstand, Install},
+  components: { WhatsNew, Hero, EasyToUnderstand, Install, Tryit},
 };
 </script>
