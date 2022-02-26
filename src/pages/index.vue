@@ -9,7 +9,7 @@
 <script lang="ts">
 import WhatsNew from '../components/WhatsNew.vue';
 import Hero from '../components/Hero.vue';
-import Features from '../components/Features.vue'
+import Features from '../components/Easy.vue'
 export default {
   components: { WhatsNew, Hero, Features},
 };
