@@ -9,13 +9,13 @@ export default defineComponent({
   <div class="flex justify-center pt-8 flex-col items-center pb-12">
     <div class="sm:text-center lg:text-left">
       <div
-        class="text-9xl tracking-tight text-base-content sm:text-5xl md:text-6xl text-center"
+        class="text-5xl tracking-tight text-base-content sm:text-5xl md:text-6xl text-center"
       >
         <span class="inline-flex">The</span>
         <i
           class="text-7xl font-thin relative top-3 px-2 mr-2 fa-brands fa-golang inline-flex"
         ></i>
-        <span class="inline-flex ">framework</span>
+        <span class="inline-flex">framework</span>
         <span class="text-primary block">to scale</span>
       </div>
     </div>
