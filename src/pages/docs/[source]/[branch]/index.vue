@@ -30,7 +30,7 @@
 				>
 					<div class="font-sans text-base-content p-px">
 						<div
-							class="prose prose-pre:p-3 prose-pre:rounded prose-pre:overflow-x-auto max-w-none prose-img:inline prose-a:text-link prose-a:no-underline prose-h1:border-border prose-h1:border-b-2 prose-h1:mt-1 prose-h1:text-bold prose-h1:border-solid prose-h2:border-b-2 prose-h2:mt-1 prose-h2:text-bold prose-h2:border-solid prose-h2:border-border"
+							class="prose prose-pre:p-3 prose-pre:rounded prose-pre:bg-code prose-pre:overflow-x-auto max-w-none prose-img:inline prose-a:text-link prose-a:no-underline prose-h1:border-border prose-h1:border-b-2 prose-h1:mt-1 prose-h1:text-bold prose-h1:border-solid prose-h2:border-b-2 prose-h2:mt-1 prose-h2:text-bold prose-h2:border-solid prose-h2:border-border"
 							v-html="readme"
 						></div>
 					</div>

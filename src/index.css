@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
 
 	.code-img {

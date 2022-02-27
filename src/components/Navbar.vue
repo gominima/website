@@ -1,7 +1,7 @@
 <template>
 	<div class="navbar  text-base-content">
 		<div class="px-2 mx-2 navbar-start">
-			<router-link class="text-2xl md:text-3xl font-bold" to="/">Go-<span class="text-primary">Minima</span></router-link>
+			<router-link class="text-2xl md:text-3xl font-bold text-primary" to="/">Minima</router-link>
 		</div>
 		<div class="hidden navbar-end lg:flex">
 			<div class="flex items-stretch">
@@ -77,8 +77,8 @@
 					<li>
 						<label class="swap">
 							<input type="checkbox" />
-							<a class="swap-on btn btn-ghost btn-sm rounded-btn normal-case" data-set-theme="light" data-act-class="active">Light mode</a>
-							<a class="swap-off btn btn-ghost btn-sm rounded-btn normal-case" data-set-theme="forest" data-act-class="active">Dark mode</a>
+							<a class="swap-on btn btn-ghost btn-sm rounded-btn normal-case" data-set-theme="cupcake" data-act-class="active">🌞</a>
+							<a class="swap-off btn btn-ghost btn-sm rounded-btn normal-case" data-set-theme="dracula" data-act-class="active">🌙</a>
 						</label>
 					</li>
 				</ul>
