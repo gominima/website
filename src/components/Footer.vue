@@ -12,7 +12,7 @@
     <a class="link link-hover"  href="https://github.com/gominima/docgen">Docgen</a> 
     <a class="link link-hover"  href="https://github.com/gominima/go-requests">GoRequests</a> 
   </div> 
-  <div>
+  <div v-if="data != null">
     <span class="footer-title">Github Stats</span> 
     <a class="link link-hover font-bold" href="https://github.com/gominima/minima/stargazers">{{data.stargazers_count}} stars</a> 
     <a class="link link-hover font-bold" href="https://github.com/gominima/minima/fork">{{data.forks}} forks</a> 
