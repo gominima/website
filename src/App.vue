@@ -1,11 +1,15 @@
 <template>
   <Navbar />
   <router-view />
+   <Footer/>
+   <MadeBy/>
 </template>
 
 <script lang="ts">
 import Navbar from './components/Navbar.vue';
+import Footer from "./components/Footer.vue"
+import MadeBy from "./components/MadeBy.vue"
 export default {
-  components: { Navbar }
+  components: { Navbar, Footer, MadeBy }
 }
 </script>

@@ -2,6 +2,9 @@ module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        'mons': ['Montserrat', 'sans-serif']
+      },
       colors: {
         navbar: '#110e0e',
         border: '#383838',
@@ -11,7 +14,8 @@ module.exports = {
     },
   },
   daisyui: {
-    darkTheme: "forest"
+    darkTheme: "dracula",
+    lightTheme: "cupcake"
   },
   plugins: [
     require('@tailwindcss/typography'),
