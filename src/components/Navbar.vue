@@ -1,7 +1,7 @@
 <template>
 	<div class="navbar  text-base-content">
 		<div class="px-2 mx-2 navbar-start">
-			<router-link class="text-lg font-bold" to="/"> <img class="w-28" src="../assets/minimaLogo.png" alt="minimalogo"> </router-link>
+			<router-link class="text-2xl md:text-3xl font-bold" to="/">Go-<span class="text-primary">Minima</span></router-link>
 		</div>
 		<div class="hidden navbar-end lg:flex">
 			<div class="flex items-stretch">
