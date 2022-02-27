@@ -112,8 +112,8 @@ export default defineComponent({
 		return {
 			scrolled: false,
 			themes: [
-				{ id: 'light', name: 'Light' },
-				{ id: 'forest', name: 'Dark' },
+				{ id: 'cupcake', name: 'Light' },
+				{ id: 'dracula', name: 'Dark' },
 			],
 		};
 	},

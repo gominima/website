@@ -1,6 +1,6 @@
 <template>
  <div class="min-h-screen min-w-full flex flex-col justify-center items-center space-y-6 pb-16 pt-16">
- <div class="text-5xl md:text-7xl font-mons pt-12">Install Minima</div>
+ <div class="text-5xl text-primary md:text-7xl font-mons pt-12">Install Minima</div>
  <div class="w-1/2 md:w-1/2 font-semibold md:text-xl text-center">No dependencies, pure net/http with custom handler. Can be used as a net/http wrapper or as an independent framework</div>
   <div class="text-2xl font-bold pt-2">Install minima as go package</div>
   <div class="mockup-code bg-code w-1/3">

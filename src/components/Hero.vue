@@ -20,7 +20,7 @@ export default defineComponent({
       </div>
     </div>
     <div
-      class="mt-3 text-base text-white pl-4 pr-4 md:p-2 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
+      class="mt-3 text-basepl-4 pr-4 md:p-2 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
     >
       Minima is a reliable and lightweight framework for Go to carve the web
       . Developed with core
@@ -30,7 +30,7 @@ export default defineComponent({
       external dependencies.
     </div>
     <div
-      class="mt-3 text-base text-center text-gray-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+      class="mt-3 text-base text-center sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
     >
       Start using minima with your existing projects!
     </div>
@@ -51,7 +51,7 @@ export default defineComponent({
         Get Started
       </a>
     </div>
-    <footer class="text-sm text-center text-gray-500 pt-8">
+    <footer class="text-sm text-center pt-8">
       DEVELOPED BY MINIMA CORE TEAM™
     </footer>
   </div>
