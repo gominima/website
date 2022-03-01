@@ -1,6 +1,6 @@
 <template>
  <div class="bg-neutral pt-24 pb-24 flex justify-center items-center flex-col space-x-6">
- <div class="text-4xl text-primary md:text-7xl font-mons">Try minima online!</div>
+ <div class="text-3xl text-primary md:text-7xl font-mons">Try minima online!</div>
  <div class="text-xl text-secondary font-mons pt-1">Premade templates</div>
    <div class="flex justify-center flex-col pt-6 space-y-3 md:space-y-0 md:flex-row md:space-x-5 ">
       <a

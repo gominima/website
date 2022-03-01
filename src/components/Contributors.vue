@@ -1,9 +1,9 @@
 <template>
 	<div class="pt-24 pb-24 flex justify-center flex-col items-center">
-		<div class="text-secondary text-3xl md:text-7xl font-mons">Thanks to our Community!</div>
+		<div class="text-secondary text-2xl md:text-7xl font-mons">Thanks to our Community!</div>
 		<div
 			v-if="data != null"
-			class="text-center w-full md:w-1/2 text-2xl pt-4 md:text-3xl font-mons"
+			class="text-center w-full md:w-1/2 text-xl pt-4 md:text-3xl font-mons"
 		>
 			We are at {{ data.stargazers_count }} stars,
 			{{ data.forks }} forks and over 8+ contributors
