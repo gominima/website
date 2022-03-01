@@ -92,6 +92,7 @@
 							<h1 class="card-title text-2xl py-0 my-4">Properties</h1>
 							<div
 								v-for="(property, index) in docs?.Properties"
+								:id="'doc-for-' + property.Name"
 								:key="property.Name + '_' + index"
 								class="prose prose-a:text-link prose-a:no-underline ml-8 mt-3 mb-2"
 							>
@@ -101,13 +102,13 @@
 								<div class="mb-4 noprose text-gray-400">
 									{{ property.Description }}
 								</div>
-								<div class="font-semibold">
+								<div v-if="property.Type" class="font-semibold">
 									Type:
 									<div class="inline-block whitespace-pre-wrap">
 										<span
-											><router-link :to="property.Type" class="">{{
+											><a :href="parseLink(property.Type)" class="">{{
 												property.Type
-											}}</router-link></span
+											}}</a></span
 										>
 									</div>
 									<hr class="mt-2 mb-6 border-gray-500" />
@@ -118,6 +119,7 @@
 							<h1 class="card-title text-2xl py-0 my-4">Functions</h1>
 							<div
 								v-for="(func, index) in docs?.Functions"
+								:id="'doc-for-' + func.Name"
 								:key="func.Name + '_' + index"
 								class="prose prose-a:text-link prose-a:no-underline ml-8 mt-3"
 							>
@@ -144,9 +146,9 @@
 												<th>{{ param.Name || 'none' }}</th>
 												<td>{{ param.Description || 'none' }}</td>
 												<td>
-													<router-link :to="param.Type" class="text-link bold">{{
+													<a :href="parseLink(param.Type)" class="text-link bold">{{
 														param.Type
-													}}</router-link>
+													}}</a>
 												</td>
 											</tr>
 										</tbody>
@@ -156,9 +158,9 @@
 									Returns:
 									<div class="inline-block whitespace-pre-wrap">
 										<span
-											><router-link :to="func.Returns.Type">{{
+											><a :href="parseLink(func.Returns.Type)">{{
 												func.Returns.Type
-											}}</router-link></span
+											}}</a></span
 										>
 									</div>
 								</div>
@@ -219,13 +221,14 @@
 import { defineComponent } from 'vue-demi';
 import { getDocs } from '~/store';
 import { DocumentationJSON, _Structure } from '~/types/Docs';
-import { parseMarkdownColors } from '~/util';
+import { parseMarkdownColors, parseLink } from '~/util';
 
 export default defineComponent({
 	data() {
 		return {
 			docs: {} as _Structure | undefined,
 			docsjson: {} as DocumentationJSON,
+			parseLink,
 		};
 	},
 
