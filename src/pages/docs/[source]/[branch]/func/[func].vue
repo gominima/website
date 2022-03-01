@@ -58,9 +58,9 @@
 											<th>{{ param.Name || 'none' }}</th>
 											<td>{{ param.Description || 'none' }}</td>
 											<td>
-												<router-link :to="param.Type" class="text-link bold">{{
-													param.Type
-												}}</router-link>
+												<a :href="parseLink(param.Type)" class="text-link bold">{{
+														param.Type
+													}}</a>
 											</td>
 										</tr>
 									</tbody>
@@ -130,13 +130,14 @@
 import { defineComponent } from 'vue-demi';
 import { getDocs } from '~/store';
 import { DocumentationJSON, _Function } from '~/types/Docs';
-import { parseMarkdownColors } from '~/util';
+import { parseMarkdownColors, parseLink } from '~/util';
 
 export default defineComponent({
 	data() {
 		return {
 			docs: {} as _Function | undefined,
 			docsjson: {} as DocumentationJSON,
+			parseLink,
 		};
 	},
 	async created() {
