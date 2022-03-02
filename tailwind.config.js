@@ -4,6 +4,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				mons: ['Montserrat', 'sans-serif'],
+				fira: ['Fira Code', 'Consolas', 'monospace'],
 			},
 			colors: {
 				navbar: '#110e0e',

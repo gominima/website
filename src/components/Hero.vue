@@ -19,7 +19,7 @@ export default defineComponent({
 			class="mt-3 text-basepl-4 pr-4 md:p-2 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
 		>
 			Minima is a reliable and lightweight framework for Go to carve the web. Developed with core
-			<code>net/http</code>
+			<code class="font-fira">net/http</code>
 			and other native packages, and with
 			<span class="italic">zero</span>
 			external dependencies.

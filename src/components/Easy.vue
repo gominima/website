@@ -5,17 +5,17 @@
 		<div class="flex flex-col justify-center items-center space-y-6 pt-16 pb-16 w-full">
 			<div class="text-3xl md:text-7xl font-mons text-primary">Simple and flexible</div>
 			<div class="tet-2xl text-center md:text-4xl font-mons text-secondary">
-				Use Minima's utility layer on top of <code>net/http</code>
+				Use Minima's utility layer on top of <code class="font-fira">net/http</code>
 			</div>
 			<div class="w-4/5 md:w-1/2 font-semibold md:text-lg text-center">
 				Minima is based on hash table which makes it extremely fast and efficient. Also, it is fully
-				compatible with <code>net/http</code> which makes it a great choice for your next project.
+				compatible with <code class="font-fira">net/http</code> which makes it a great choice for your next project.
 			</div>
-			<div class="mockup-code bg-code w-2/3 text-sm">
-				<pre><code v-html="setupRelatedCode"></code></pre>
+			<div class="mockup-code bg-code w-3/5 text-sm">
+				<pre><code class="font-fira" v-html="setupRelatedCode"></code></pre>
 			</div>
 			<div class="divider">↓</div>
-			<div class="border mockup-window border-base-900 w-2/3 bg-code">
+			<div class="border mockup-window border-base-900w-3/5 bg-code">
 				<div class="flex justify-center px-4 py-16 border-t border-base-300 text-3xl md:text-7xl">
 					Hello World!
 				</div>
@@ -39,17 +39,19 @@ export default defineComponent({
 	methods: {
 		async getCode() {
 			this.setupRelatedCode = parseMarkdownColors(
-				`
-	package main
+				`	package main
+
 	import "github.com/gominima/minima"
+
 	func main() {
 		app := minima.New()
-		app.Get("/", func(res *minima.Response, req *minima.Request) {	
+
+		app.Get("/", func(res *minima.Response, req *minima.Request) {
 			res.OK().Send("Hello World")
 		})
+
 		app.Listen(":3000")
-	}
-			`.trim(),
+	}`,
 				'go',
 			);
 		},
