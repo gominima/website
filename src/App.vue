@@ -8,8 +8,7 @@
 <script lang="ts">
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
-import MadeBy from './components/MadeBy.vue';
 export default {
-	components: { Navbar, Footer, MadeBy },
+	components: { Navbar, Footer },
 };
 </script>

@@ -3,7 +3,7 @@
 		class="bg-neutral min-h-screen min-w-full text-neutral-content flex justify-center items-center"
 	>
 		<div class="flex flex-col justify-center items-center space-y-6 pt-16 pb-16 w-full">
-			<div class="text-3xl md:text-7xl font-mons text-primary">Simple and flexible</div>
+			<div class="text-3xl md:text-6xl font-mons text-center text-primary">Simple and flexible</div>
 			<div class="tet-2xl text-center md:text-4xl font-mons text-secondary">
 				Use Minima's utility layer on top of <code class="font-fira">net/http</code>
 			</div>
@@ -16,7 +16,7 @@
 			</div>
 			<div class="divider">↓</div>
 			<div class="border mockup-window border-base-900w-3/5 bg-code">
-				<div class="flex justify-center px-4 py-16 border-t border-base-300 text-3xl md:text-7xl">
+				<div class="flex justify-center px-20 py-16 border-t border-base-300 text-3xl md:text-5xl">
 					Hello World!
 				</div>
 			</div>

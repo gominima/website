@@ -76,7 +76,6 @@
 					</li>
 					<li>
 						<label class="swap">
-							<input type="checkbox" />
 							<a
 								class="swap-on btn btn-ghost btn-sm rounded-btn normal-case"
 								data-set-theme="cupcake"
