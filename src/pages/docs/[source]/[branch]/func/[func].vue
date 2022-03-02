@@ -58,9 +58,7 @@
 											<th>{{ param.Name || 'none' }}</th>
 											<td>{{ param.Description || 'none' }}</td>
 											<td>
-												<a :href="parseLink(param.Type)" class="text-link bold">{{
-														param.Type
-													}}</a>
+												<a :href="parseLink(param.Type)" class="text-link bold">{{ param.Type }}</a>
 											</td>
 										</tr>
 									</tbody>
@@ -70,7 +68,9 @@
 								Returns:
 								<div class="inline-block whitespace-pre-wrap">
 									<span
-										><router-link :to="docs?.Returns?.Type" class="">{{ docs?.Returns?.Type }}</router-link></span
+										><router-link :to="docs?.Returns?.Type" class="">{{
+											docs?.Returns?.Type
+										}}</router-link></span
 									>
 								</div>
 							</div>
@@ -106,7 +106,9 @@
 				<li class="mr-2 text-base font-bold text-base-content">STRUCTURES</li>
 				<li v-for="(doc, index) in docsjson.Structures" :key="doc.Name + '_' + index">
 					<router-link
-						:to="'/docs/' + $route.params.source + '/' + $route.params.branch + '/struct/' + doc.Name"
+						:to="
+							'/docs/' + $route.params.source + '/' + $route.params.branch + '/struct/' + doc.Name
+						"
 						class="font-sans text-base-content text-base mr-2"
 					>
 						{{ doc.Name }}
@@ -152,10 +154,10 @@ export default defineComponent({
 	},
 	methods: {
 		async updateDocs() {
-			const path = `${this.$route.params.source}-${this.$route.params.branch}`
+			const path = `${this.$route.params.source}-${this.$route.params.branch}`;
 			const docs = await getDocs(path);
 			this.docsjson = docs;
-			this.docs = docs.Functions.find(func => func.Name === this.$route.params.func);
+			this.docs = docs.Functions.find((func) => func.Name === this.$route.params.func);
 			if (!this.docs || this.docs?.Line.startsWith('<')) return; //return early if line is already formatted
 			this.docs.Line = parseMarkdownColors(this.docs.Line, 'go');
 		},

@@ -22,7 +22,8 @@
 							stroke-linecap="round"
 							stroke-linejoin="round"
 						></path>
-					</g></svg>
+					</g>
+				</svg>
 			</label>
 			<div class="flex items-stretch flex-col m-auto w-full overflow-hidden bg-base-100">
 				<article
@@ -106,9 +107,7 @@
 									Type:
 									<div class="inline-block whitespace-pre-wrap">
 										<span
-											><a :href="parseLink(property.Type)" class="">{{
-												property.Type
-											}}</a></span
+											><a :href="parseLink(property.Type)" class="">{{ property.Type }}</a></span
 										>
 									</div>
 									<hr class="mt-2 mb-6 border-gray-500" />
@@ -158,9 +157,7 @@
 									Returns:
 									<div class="inline-block whitespace-pre-wrap">
 										<span
-											><a :href="parseLink(func.Returns.Type)">{{
-												func.Returns.Type
-											}}</a></span
+											><a :href="parseLink(func.Returns.Type)">{{ func.Returns.Type }}</a></span
 										>
 									</div>
 								</div>
@@ -181,7 +178,8 @@
 					preserveAspectRatio="xMidYMid meet"
 					viewBox="0 0 24 24"
 					class="h-6 w-6 block"
-					aria-hidden="true">
+					aria-hidden="true"
+				>
 					<g fill="none">
 						<path
 							d="M9 5l7 7l-7 7"
@@ -197,7 +195,9 @@
 				<li class="mr-2 text-base font-bold text-base-content">STRUCTURES</li>
 				<li v-for="(doc, index) in docsjson?.Structures" :key="doc.Name + '_' + index">
 					<router-link
-						:to="'/docs/' + $route.params.source + '/' + $route.params.branch + '/struct/' + doc.Name"
+						:to="
+							'/docs/' + $route.params.source + '/' + $route.params.branch + '/struct/' + doc.Name
+						"
 						class="font-sans text-base-content text-base mr-2"
 					>
 						{{ doc.Name }}
@@ -254,7 +254,9 @@ export default defineComponent({
 		async updateDocs() {
 			const path = `${this.$route.params.source}-${this.$route.params.branch}`;
 			this.docsjson = await getDocs(path);
-			this.docs = this.docsjson.Structures.find(struct => struct.Name === this.$route.params.struct);
+			this.docs = this.docsjson.Structures.find(
+				(struct) => struct.Name === this.$route.params.struct,
+			);
 			if (!this.docs?.Line || this.docs.Line?.startsWith('<')) return; //return early if line is already formatted
 			this.docs.Line = parseMarkdownColors(this.docs.Line, 'go');
 		},

@@ -4,7 +4,6 @@
 @tailwind utilities;
 
 @layer base {
-
 	.code-img {
 		width: 45rem;
 	}

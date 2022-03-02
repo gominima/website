@@ -1,2 +1,2 @@
-export * from './parseMarkdown'
-export * from './parseLink'
+export * from './parseMarkdown';
+export * from './parseLink';
