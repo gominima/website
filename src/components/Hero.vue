@@ -12,7 +12,7 @@ export default defineComponent({
 				class="text-5xl tracking-tight text-base-content sm:text-5xl md:text-6xl text-center font-cabin"
 			>
 				<span class="inline-flex">The</span>
-				<i class="text-7xl font-thin relative top-3 px-2 mr-2 fa-brands fa-golang inline-flex"></i>
+				<i class="text-7xl relative top-3 px-3 mr-2 -ml-2 fa-brands fa-golang inline-flex"></i>
 				<span class="inline-flex">framework</span>
 				<span class="text-primary block">to scale</span>
 			</div>

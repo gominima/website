@@ -14,7 +14,7 @@ export default defineComponent({
 			<span class="truncate text-base-content ml-2 font-open">
 				<a href="https://github.com/gominima/minima"> Version 1 has launched! 🚀 </a>
 			</span>
-			<i class="fas fa-chevron-right flex justify-center items-center ml-2"></i>
+			<i class="fa-solid fa-chevron-right text-white flex justify-center items-center ml-2"></i>
 		</div>
 	</div>
 </template>
