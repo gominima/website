@@ -3,8 +3,8 @@
 		<div class="text-4xl text-primary md:text-6xl font-mons pt-12">Install Minima</div>
 		<div class="w-4/5 md:w-1/2 md:text-lg text-center font-open">
 			No dependencies, just good ol'
-			<code class="font-fira">net/http</code> with a custom handler. Use it as a <code class="font-fira">net/http</code> wrapper or as
-			an independent framework. Your choice.
+			<code class="font-fira">net/http</code> with a custom handler. Use it as a
+			<code class="font-fira">net/http</code> wrapper or as an independent framework. Your choice.
 		</div>
 		<div class="text-2xl font-bold pt-2 text-center font-open">Install Minima as a Go package</div>
 		<div class="italic text-center">Run the following code in a terminal</div>

@@ -1,5 +1,5 @@
 <template>
-	<div class="pt-24 pb-24 flex justify-center flex-col items-center space-y-3">
+	<div class="pt-24 pb-24 flex justify-center flex-col items-center space-y-3 text-center">
 		<div class="text-4xl text-primary md:text-6xl font-mons pt-12">Thanks to our Community!</div>
 		<div v-if="data != null" class="text-center w-full md:w-1/2 text-xl pt-4 md:text-3xl font-mons">
 			We are at <strong>{{ data.stargazers_count }}</strong> stars,

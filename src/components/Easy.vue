@@ -8,15 +8,18 @@
 				Use Minima's utility layer on top of <code class="font-fira">net/http</code>
 			</div>
 			<div class="w-4/5 md:w-1/2 md:text-lg text-center font-open">
-				Minima is based on hash table which makes it extremely fast and efficient. Also, it is fully
-				compatible with <code class="font-fira">net/http</code> which makes it a great choice for your next project.
+				Minima is based on a custom implementation of radix tree which makes it extremely fast and
+				efficient. Also, it is fully compatible with <code class="font-fira">net/http</code> which
+				makes it a great choice for your next project.
 			</div>
 			<div class="mockup-code bg-code w-3/5 text-sm">
 				<pre><code class="font-fira" v-html="setupRelatedCode"></code></pre>
 			</div>
 			<div class="divider">↓</div>
 			<div class="border mockup-window border-base-900w-3/5 bg-code">
-				<div class="flex justify-center px-20 py-16 border-t border-base-300 text-3xl md:text-5xl font-mons">
+				<div
+					class="flex justify-center px-20 py-16 border-t border-base-300 text-3xl md:text-5xl font-mons"
+				>
 					Hello World!
 				</div>
 			</div>
