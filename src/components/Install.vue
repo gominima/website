@@ -1,6 +1,6 @@
 <template>
 	<div class="min-h-screen min-w-full flex flex-col justify-center items-center space-y-6 py-16">
-		<div class="text-4xl text-primary md:text-6xl font-mons pt-12">Install Minima</div>
+		<div class="text-4xl text-primary md:text-6xl font-bold font-mons pt-12">Install Minima</div>
 		<div class="w-4/5 md:w-1/2 md:text-lg text-center font-open">
 			No dependencies, just good ol'
 			<code class="font-fira">net/http</code> with a custom handler. Use it as a
@@ -18,7 +18,7 @@
 <code class="font-fira" v-html="setupRelatedCode"></code></pre>
 		</div>
 		<a
-			class="btn btn-secondary text-lg border border-transparent tansition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case font-cabin"
+			class="btn btn-secondary text-lg border border-transparent tansition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
 			href="https://guide.gominima.studio"
 		>
 			Get Started

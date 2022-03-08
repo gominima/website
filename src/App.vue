@@ -2,7 +2,6 @@
 	<Navbar />
 	<router-view />
 	<Footer />
-	<MadeBy />
 </template>
 
 <script lang="ts">

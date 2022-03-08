@@ -14,5 +14,6 @@ module.exports = {
 	],
 	rules: {
 		'no-undef': 'off',
+		'vue/no-v-html': 'off',
 	},
 };
