@@ -8,9 +8,7 @@ export default defineComponent({
 <template>
 	<div class="flex justify-center pt-8 flex-col items-center pb-12">
 		<div class="text-center">
-			<div
-				class="text-5xl tracking-tight text-base-content sm:text-5xl md:text-6xl text-center"
-			>
+			<div class="text-5xl tracking-tight text-base-content sm:text-5xl md:text-6xl text-center">
 				<span class="inline-flex">The</span>
 				<i class="text-7xl relative top-3 px-3 mr-2 -ml-2 fa-brands fa-golang inline-flex"></i>
 				<span class="inline-flex">framework</span>

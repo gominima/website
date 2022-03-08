@@ -3,7 +3,9 @@
 		class="bg-neutral min-h-screen min-w-full text-neutral-content flex justify-center items-center"
 	>
 		<div class="flex flex-col justify-center items-center space-y-6 pt-16 pb-16 w-full">
-			<div class="text-3xl md:text-6xl font-bold font-mons text-center text-primary">Simple and flexible</div>
+			<div class="text-3xl md:text-6xl font-bold font-mons text-center text-primary">
+				Simple and flexible
+			</div>
 			<div class="text-2xl text-center md:text-3xl font-medium font-mons text-secondary">
 				Use Minima's utility layer on top of <code class="font-fira">net/http</code>
 			</div>

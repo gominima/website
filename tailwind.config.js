@@ -5,7 +5,7 @@ module.exports = {
 			fontFamily: {
 				mons: ['Montserrat', 'sans-serif'],
 				fira: ['Fira Code', 'Consolas', 'monospace'],
-				cabin: ['Cabin', 'sans-serif'],
+				pacifico: ['Pacifico', 'sans-serif'],
 				open: ['Open Sans', 'sans-serif'],
 			},
 			colors: {

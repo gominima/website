@@ -7,7 +7,10 @@
 			We are at <strong>{{ data.stargazers_count }}</strong> stars,
 			<strong>{{ data.forks }}</strong> forks and over <strong>8+</strong> contributors
 		</div>
-		<div v-if="data != null" class="text-xl text-secondary font-semibold font-mons text-center pt-1">
+		<div
+			v-if="data != null"
+			class="text-xl text-secondary font-semibold font-mons text-center pt-1"
+		>
 			Become a part of the contributor list by contributing today!
 		</div>
 		<a class="pt-6" href="https://github.com/gominima/minima/graphs/contributors">

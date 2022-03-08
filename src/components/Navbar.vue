@@ -1,7 +1,9 @@
 <template>
 	<div class="navbar text-base-content">
 		<div class="px-2 mx-2 navbar-start">
-			<router-link class="text-2xl md:text-3xl font-bold text-primary" to="/">Minima</router-link>
+			<router-link class="text-2xl md:text-3xl font-pacifico text-primary" to="/"
+				>Minima</router-link
+			>
 		</div>
 		<div class="hidden navbar-end lg:flex">
 			<div class="flex items-stretch">
