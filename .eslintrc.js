@@ -13,6 +13,7 @@ module.exports = {
 		'prettier',
 	],
 	rules: {
-		'no-undef': 'off'
-	}
+		'no-undef': 'off',
+		'vue/no-v-html': 'off',
+	},
 };

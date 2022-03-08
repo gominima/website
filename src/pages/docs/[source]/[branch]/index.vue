@@ -12,7 +12,8 @@
 					preserveAspectRatio="xMidYMid meet"
 					viewBox="0 0 24 24"
 					class="h-6 w-6 block"
-					aria-hidden="true">
+					aria-hidden="true"
+				>
 					<g fill="none">
 						<path
 							d="M9 5l7 7l-7 7"
@@ -22,8 +23,8 @@
 							stroke-linejoin="round"
 						></path>
 					</g>
-					</svg>
-				</label>
+				</svg>
+			</label>
 			<div class="flex items-stretch flex-col m-auto w-full overflow-hidden bg-base-100">
 				<article
 					class="py-2.5 px-4 mt-3.5 hover:shadow-md rounded-lg border-x border-solid border-base-200"
@@ -47,7 +48,8 @@
 					preserveAspectRatio="xMidYMid meet"
 					viewBox="0 0 24 24"
 					class="h-6 w-6 block"
-					aria-hidden="true">
+					aria-hidden="true"
+				>
 					<g fill="none">
 						<path
 							d="M9 5l7 7l-7 7"
@@ -57,13 +59,15 @@
 							stroke-linejoin="round"
 						></path>
 					</g>
-					</svg>
-				</label>
+				</svg>
+			</label>
 			<ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
 				<li class="mr-2 text-base font-bold text-base-content">STRUCTURES</li>
 				<li v-for="(doc, index) in (docsjson as any).Structures" :key="doc.Name + '_' + index">
 					<router-link
-						:to="'/docs/' + $route.params.source + '/' + $route.params.branch + '/struct/' + doc.Name"
+						:to="
+							'/docs/' + $route.params.source + '/' + $route.params.branch + '/struct/' + doc.Name
+						"
 						class="font-sans text-base-content text-base mr-2"
 					>
 						{{ doc.Name }}
@@ -100,14 +104,14 @@ export default defineComponent({
 	},
 	methods: {
 		async getReadme() {
-			const path = `${this.$route.params.source}/${this.$route.params.branch}`
+			const path = `${this.$route.params.source}/${this.$route.params.branch}`;
 			const text = await (
 				await fetch(`https://raw.githubusercontent.com/gominima/${path}/README.md`)
 			).text();
 			this.readme = parseMarkdown(text);
 		},
 		async getDocJson() {
-			const path = `${this.$route.params.source}-${this.$route.params.branch}`
+			const path = `${this.$route.params.source}-${this.$route.params.branch}`;
 			this.docsjson = await getDocs(path);
 		},
 	},

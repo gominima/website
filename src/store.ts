@@ -1,4 +1,4 @@
-import { DocumentationJSON } from "./types/Docs";
+import { DocumentationJSON } from './types/Docs';
 
 const Docs = new Map();
 
@@ -12,10 +12,10 @@ export async function getDocs(key: string): Promise<DocumentationJSON> {
 		const json = await (
 			await fetch(`https://raw.githubusercontent.com/gominima/docs/main/${key}.json`)
 		).json();
-        Docs.set(key, json)
-        returnJSON = json;
+		Docs.set(key, json);
+		returnJSON = json;
 	}
-	console.log(`FETCH[${key}]: Cached: ${cached}`)
-	console.log(returnJSON)
+	console.log(`FETCH[${key}]: Cached: ${cached}`);
+	console.log(returnJSON);
 	return returnJSON;
 }

@@ -5,7 +5,7 @@ import { marked } from 'marked';
 export function parseMarkdown(text: string) {
 	return marked.setOptions({
 		highlight: function (code, lang) {
-			return parseMarkdownColors(code, lang)
+			return parseMarkdownColors(code, lang);
 		},
 	})(text);
 }

@@ -45,13 +45,13 @@ const data = ref();
 export default {
 	setup() {
 		onMounted(async () => {
-			data.value = await (await fetch('https://api.github.com/repos/gominima/minima')).json()
+			data.value = await (await fetch('https://api.github.com/repos/gominima/minima')).json();
 		});
 	},
-  data() {
-    return {
-      data
-    }
-  }
+	data() {
+		return {
+			data,
+		};
+	},
 };
 </script>
