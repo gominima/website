@@ -17,7 +17,9 @@
 			<div class="mockup-code bg-code w-3/5 text-sm">
 				<pre><code class="font-fira" v-html="setupRelatedCode"></code></pre>
 			</div>
-			<div class="divider">↓</div>
+			<div class="divider">
+				<font-awesome-icon class="text-xl" :icon="['fas', 'arrow-down-long']" />
+			</div>
 			<div class="border mockup-window border-base-900w-3/5 bg-code">
 				<div
 					class="flex justify-center px-20 py-16 border-t border-base-300 text-3xl md:text-5xl font-mons"

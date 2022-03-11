@@ -6,12 +6,20 @@
 			<code class="font-fira">net/http</code> with a custom handler. Use it as a
 			<code class="font-fira">net/http</code> wrapper or as an independent framework. Your choice.
 		</div>
-		<div class="text-2xl font-bold pt-2 text-center font-open">Install Minima as a Go package</div>
+
+		<div class="text-2xl font-bold pt-2 text-center font-open">
+			<font-awesome-icon class="text-xl mr-2" :icon="['fas', 'terminal']" />
+			Install Minima as a Go package
+		</div>
 		<div class="italic text-center">Run the following code in a terminal</div>
 		<div class="mockup-code bg-code w-3/5">
 			<pre data-prefix="$"><code class="font-fira">go get github.com/gominima/minima</code></pre>
 		</div>
-		<div class="text-2xl font-bold pt-2 text-center font-open">Create a simple Minima server</div>
+
+		<div class="text-2xl font-bold pt-2 text-center font-open">
+			<font-awesome-icon class="text-xl mr-2" :icon="['fas', 'file-code']" />
+			Create a simple Minima server
+		</div>
 		<div class="italic text-center">Create a Go file and get programming</div>
 		<div class="mockup-code bg-code w-3/5">
 			<pre>
