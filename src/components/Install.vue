@@ -26,7 +26,7 @@
 <code class="font-fira" v-html="setupRelatedCode"></code></pre>
 		</div>
 		<a
-			class="btn btn-secondary text-lg border border-transparent tansition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
+			class="btn btn-secondary text-lg border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
 			href="https://guide.gominima.studio"
 		>
 			Get Started
