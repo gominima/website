@@ -14,7 +14,9 @@ export default defineComponent({
 		>
 			<div class="pt-1 pb-1 p-4 rounded-full btn-secondary font-semibold">New</div>
 			<span class="truncate text-base-content ml-2 font-open">
-				<a href="https://github.com/gominima/minima"> Version 1 has launched! 🚀 </a>
+				<a href="https://github.com/gominima/minima/releases" target="_blank">
+					Version 1 has launched! 🚀
+				</a>
 			</span>
 			<font-awesome-icon
 				class="text-white flex justify-center items-center ml-2 transition ease-in duration-200 group-hover:flex group-hover:translate-x-1"
