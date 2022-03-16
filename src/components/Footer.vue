@@ -13,7 +13,7 @@
 				<a class="link link-hover" href="https://github.com/gominima/go-requests">GoRequests</a>
 			</div>
 			<div v-if="data != null">
-				<span class="footer-title">Github Stats</span>
+				<span class="footer-title">GitHub Stats</span>
 				<a class="link link-hover font-bold" href="https://github.com/gominima/minima/stargazers"
 					>{{ data.stargazers_count }} stars</a
 				>
