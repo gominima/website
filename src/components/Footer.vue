@@ -30,7 +30,7 @@
 			<div>
 				<span class="footer-title">Links</span>
 				<a class="link link-hover" href="https://discord.com/invite/gRyCr5APmg">Discord</a>
-				<a class="link link-hover" href="https://github.com/gominima/minima">Github</a>
+				<a class="link link-hover" href="https://github.com/gominima/minima">GitHub</a>
 				<a class="link link-hover" href="https://github.com/gominima">Other Projects</a>
 			</div>
 		</footer>
