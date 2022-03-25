@@ -16,6 +16,11 @@ module.exports = {
 			},
 		},
 	},
+	variants: {
+		extend: {
+			visibility: ['group-hover'],
+		},
+	},
 	daisyui: {
 		darkTheme: 'dracula',
 		lightTheme: 'cupcake',

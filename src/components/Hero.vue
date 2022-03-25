@@ -10,7 +10,10 @@ export default defineComponent({
 		<div class="text-center">
 			<div class="text-5xl tracking-tight text-base-content sm:text-5xl md:text-6xl text-center">
 				<span class="inline-flex">The</span>
-				<i class="text-7xl relative top-3 px-3 mr-2 -ml-2 fa-brands fa-golang inline-flex"></i>
+				<font-awesome-icon
+					class="text-7xl relative top-3 px-3 mr-2 -ml-2 inline-flex"
+					:icon="['fab', 'golang']"
+				/>
 				<span class="inline-flex">framework</span>
 				<span class="text-primary block">to scale</span>
 			</div>
@@ -33,14 +36,14 @@ export default defineComponent({
 			<div class="rounded-md shadow">
 				<a
 					href="https://guide.gominima.studio"
-					class="w-full flex items-center justify-center px-8 text-lg btn btn-primary border border-transparent tansition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
+					class="w-full flex items-center justify-center px-8 text-lg btn btn-primary border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case"
 				>
 					Get started
 				</a>
 			</div>
 			<div class="mt-3 sm:mt-0 sm:ml-3">
 				<router-link
-					class="w-full flex items-center justify-center px-6 text-lg btn border border-transparent tansition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case md:py-4 lg:py-0 md:text-lg md:px-6"
+					class="w-full flex items-center justify-center px-6 text-lg btn border border-transparent transition ease-in-out transform hover:-translate-y-1 hover:scale-105 duration-200 normal-case md:py-4 lg:py-0 md:text-lg md:px-6"
 					to="/docs"
 				>
 					Documentation
