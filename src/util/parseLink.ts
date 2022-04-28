@@ -7,6 +7,7 @@ export enum PACKAGE_URL {
 }
 
 export function parseLink(text: string) {
+	if (!text) return ''
 	//eslint-disable-next-line
 	const array = text.split(/[\[\]\*\.]/g).filter((key) => key != '');
 
