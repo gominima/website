@@ -133,8 +133,8 @@
 										<thead>
 											<tr>
 												<th>Parameter</th>
-												<th>Type</th>
 												<th>Description</th>
+												<th>Type</th>
 											</tr>
 										</thead>
 										<tbody
